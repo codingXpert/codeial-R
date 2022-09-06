@@ -12,6 +12,7 @@ module.exports.signUp = function(req , res){
 
 //render the sign in paage
 module.exports.signIn = function(req , res){
+    console.log('hello')
     return res.render('user_sign_in' , {
         title:"Codeial | Sign in"
     });
